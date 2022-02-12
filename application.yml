@@ -1,0 +1,12 @@
+spring:
+  session:
+    store-type: mongodb
+  data:
+    mongodb:
+      database: proyectoFinal
+      host: localhost
+      port: 27017
+server:
+  port: 8080
+  error:
+    include-message: always
